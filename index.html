@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .btn{
+            width: 5rem;
+            height: 5rem;
+            font-size: 2em;
+            font-weight: 600;
+            margin-top: 18px;
+            margin-left: 6px;
+            border-radius: 5px;
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-slate-500">
+    <section class="min-h-screen flex justify-center items-center flex-col rounded-xl">
+        <div class="flex justify-center items-center flex-col bg-zinc-500 pb-5">
+            <h1 class="text-4xl text-center font-medium text-orange-700">Make a Calcultor</h1>
+            <div>
+                <input id="display" type="text" placeholder="Enter" class=" border-black-800 w-96 h-14 mt-7 pl-2 text-2xl">
+                
+            </div>
+            <div>
+                <button>C</button>
+                <button>Back</button>
+                <button>%</button>
+                <button>/</button>
+            </div>
+            <div>
+                <button>7</button>
+                <button>6</button>
+                <button>9</button>
+                <button>*</button>
+            </div>
+            <div>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>-</button>
+            </div>
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>+</button>
+            </div>
+            <div>
+                <button>0</button>
+                <button>.</button>
+                <button>del</button>
+                <button>=</button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./calcultor.js"></script>
+</body>
+</html>
